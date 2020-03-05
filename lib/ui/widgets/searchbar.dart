@@ -1,14 +1,17 @@
 import 'package:ffbeequip/services/units_service.dart';
+import 'package:ffbeequip/ui/home/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_typeahead/flutter_typeahead.dart';
 
 class SearchBar extends StatelessWidget {
   const SearchBar({
     Key key,
+    this.notifyParent,
     this.margin = const EdgeInsets.symmetric(horizontal: 28),
   }) : super(key: key);
 
   final EdgeInsets margin;
+  final Function notifyParent;
 
   @override
   Widget build(BuildContext context) {
@@ -31,12 +34,13 @@ class SearchBar extends StatelessWidget {
           Expanded(
             child: TypeAheadField(
               textFieldConfiguration: TextFieldConfiguration(
-                style: DefaultTextStyle.of(context).style.copyWith(fontStyle: FontStyle.italic),
+                style: DefaultTextStyle.of(context)
+                    .style
+                    .copyWith(fontStyle: FontStyle.italic),
                 decoration: InputDecoration(
-                  hintText: 'Select a Unit...',
-                  hintStyle: TextStyle(fontSize: 14, color: Colors.black),
-                  border:InputBorder.none
-                ),
+                    hintText: 'Select a Unit...',
+                    hintStyle: TextStyle(fontSize: 14, color: Colors.black),
+                    border: InputBorder.none),
               ),
               hideSuggestionsOnKeyboardHide: false,
               getImmediateSuggestions: true,
@@ -51,7 +55,8 @@ class SearchBar extends StatelessWidget {
                 );
               },
               onSuggestionSelected: (suggestion) {
-                print('you selected $suggestion');
+                selectedUnit = getUnitFromSuggestion(suggestion);
+                notifyParent();
               },
               noItemsFoundBuilder: (context) {
                 return ListTile(
