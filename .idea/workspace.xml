@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b8d0a31-b0da-41e7-aa18-4e708d5aee48" name="Default Changelist" comment="" />
+    <list default="true" id="3b8d0a31-b0da-41e7-aa18-4e708d5aee48" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,10 +18,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Dart File" />
+        <option value="stateful_widget" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="MavenImportPreferences">
@@ -29,12 +34,14 @@
     </option>
   </component>
   <component name="ProjectId" id="1YOVrXtx3BTQMKJgikV5abx6tKp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -43,7 +50,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
@@ -74,6 +81,7 @@
       <workItem from="1583154617939" duration="4328000" />
       <workItem from="1583327315402" duration="334000" />
       <workItem from="1583327673377" duration="8487000" />
+      <workItem from="1583348231673" duration="7916000" />
     </task>
     <servers />
   </component>
@@ -85,25 +93,29 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="640" y="327" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1583327538917" />
-    <state width="1877" height="411" key="GridCell.Tab.0.bottom" timestamp="1583348199684">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom" timestamp="1583365801172">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="334" key="GridCell.Tab.0.bottom/-3520.129.1920.1080/0.0.1920.1200/-1600.-690.1600.1200@0.0.1920.1200" timestamp="1583155552829" />
+    <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583365801172" />
     <state width="1877" height="411" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199684" />
-    <state width="1877" height="411" key="GridCell.Tab.0.center" timestamp="1583348199684">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center" timestamp="1583365801172">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="334" key="GridCell.Tab.0.center/-3520.129.1920.1080/0.0.1920.1200/-1600.-690.1600.1200@0.0.1920.1200" timestamp="1583155552829" />
+    <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583365801172" />
     <state width="1877" height="411" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199684" />
-    <state width="1877" height="411" key="GridCell.Tab.0.left" timestamp="1583348199684">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left" timestamp="1583365801172">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="334" key="GridCell.Tab.0.left/-3520.129.1920.1080/0.0.1920.1200/-1600.-690.1600.1200@0.0.1920.1200" timestamp="1583155552829" />
+    <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583365801172" />
     <state width="1877" height="411" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199684" />
-    <state width="1877" height="411" key="GridCell.Tab.0.right" timestamp="1583348199684">
-      <screen x="0" y="0" width="1920" height="1200" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right" timestamp="1583365801172">
+      <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state width="1877" height="334" key="GridCell.Tab.0.right/-3520.129.1920.1080/0.0.1920.1200/-1600.-690.1600.1200@0.0.1920.1200" timestamp="1583155552829" />
+    <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583365801172" />
     <state width="1877" height="411" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199684" />
     <state width="1877" height="411" key="GridCell.Tab.1.bottom" timestamp="1583348199684">
       <screen x="0" y="0" width="1920" height="1200" />
@@ -121,9 +133,17 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state width="1877" height="411" key="GridCell.Tab.1.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199683" />
+    <state x="461" y="182" key="SettingsEditor" timestamp="1583372418562">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="461" y="182" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1583372418562" />
     <state x="655" y="423" key="com.intellij.ide.util.TipDialog" timestamp="1583327701560">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="655" y="423" key="com.intellij.ide.util.TipDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1583327701560" />
+    <state x="616" y="192" width="672" height="676" key="search.everywhere.popup" timestamp="1583367634366">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="616" y="192" width="672" height="676" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1583367634366" />
   </component>
 </project>
