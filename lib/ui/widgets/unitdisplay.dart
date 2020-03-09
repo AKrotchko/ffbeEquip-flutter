@@ -32,13 +32,15 @@ class _UnitDisplayState extends State<UnitDisplay> {
           child: Column(
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
-          IconButton(icon: Icon(Icons.close), onPressed: (){
-            print('deselecting the unit');
-            selectedUnit = null;
-            notifyParent();
-          },),
-          Text(
-              '${selectedUnit.name} ${selectedUnit.minRarity} - ${selectedUnit.maxRarity}'),
+          ListTile(
+            leading: Image.asset('assets/images/units/unit_icon_${selectedUnit.id}.png'),
+            title: Text(selectedUnit.name),
+            subtitle: Text('${selectedUnit.minRarity}☆ - ${selectedUnit.maxRarity}☆'),
+            trailing: IconButton(icon: Icon(Icons.close), onPressed: (){
+              selectedUnit = null;
+              notifyParent();
+            },),
+          ),
           Text('HP: ${selectedUnit.stats.maxStats.hp}'),
           Text('MP: ${selectedUnit.stats.maxStats.mp}'),
           Text('ATK: ${selectedUnit.stats.maxStats.atk}'),
