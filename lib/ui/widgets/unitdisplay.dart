@@ -3,14 +3,18 @@ import 'package:ffbeequip/ui/home/home.dart';
 import 'package:flutter/material.dart';
 
 class UnitDisplay extends StatefulWidget {
-  UnitDisplay({Key key}) : super(key: key);
+  UnitDisplay({Key key, this.notifyParent}) : super(key: key);
+
+  final Function notifyParent;
 
   @override
-  _UnitDisplayState createState() => _UnitDisplayState();
+  _UnitDisplayState createState() => _UnitDisplayState(notifyParent);
 }
 
 class _UnitDisplayState extends State<UnitDisplay> {
-  _UnitDisplayState();
+  _UnitDisplayState(this.notifyParent);
+
+  final Function notifyParent;
 
   @override
   void initState() {
@@ -28,8 +32,15 @@ class _UnitDisplayState extends State<UnitDisplay> {
           child: Column(
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
-          Text(
-              '${selectedUnit.name} ${selectedUnit.minRarity} - ${selectedUnit.maxRarity}'),
+          ListTile(
+            leading: Image.asset('assets/images/units/unit_icon_${selectedUnit.id}.png'),
+            title: Text(selectedUnit.name),
+            subtitle: Text('${selectedUnit.minRarity}☆ - ${selectedUnit.maxRarity}☆'),
+            trailing: IconButton(icon: Icon(Icons.close), onPressed: (){
+              selectedUnit = null;
+              notifyParent();
+            },),
+          ),
           Text('HP: ${selectedUnit.stats.maxStats.hp}'),
           Text('MP: ${selectedUnit.stats.maxStats.mp}'),
           Text('ATK: ${selectedUnit.stats.maxStats.atk}'),

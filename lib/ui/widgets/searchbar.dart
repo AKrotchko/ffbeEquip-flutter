@@ -50,12 +50,13 @@ class SearchBar extends StatelessWidget {
               itemBuilder: (context, suggestion) {
                 return Container(
                   child: ListTile(
-                    title: Text(suggestion),
+                    leading: Image.asset('assets/images/units/unit_icon_${suggestion.id}.png'),
+                    title: Text(suggestion.name),
                   ),
                 );
               },
               onSuggestionSelected: (suggestion) {
-                selectedUnit = getUnitFromSuggestion(suggestion);
+                selectedUnit = getUnitFromSuggestion(suggestion.name);
                 notifyParent();
               },
               noItemsFoundBuilder: (context) {

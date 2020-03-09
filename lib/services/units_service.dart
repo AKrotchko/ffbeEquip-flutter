@@ -27,13 +27,13 @@ getSuggestions(String pattern) async {
             .toLowerCase()
             .startsWith(pattern.toLowerCase()) &&
         suggestions[i].maxRarity == '7') {
-      bestMatches.add(suggestions[i].name);
+      bestMatches.add(suggestions[i]);
       // If the suggested unit does not start with the words typed, but it is a 7* max unit
     } else if (suggestions[i].maxRarity == '7') {
-      secondaryMatches.add(suggestions[i].name);
+      secondaryMatches.add(suggestions[i]);
       // If the suggested unit is not a 7* max unit
     } else {
-      otherMatches.add(suggestions[i].name);
+      otherMatches.add(suggestions[i]);
     }
   }
 
