@@ -4,6 +4,9 @@ This project is inspired by [Lyrgard][1], who created and maintains [ffbeEquip][
 
 Please note that this project is **far** from completion. This is a monumental task, and I only have so much free time.
 
+![Unit Search]
+![Unit Selected]
+
 ## How to build/run the project
 
 // ToDo
@@ -35,3 +38,6 @@ Contributing directly is mostly closed at the moment, until the shell of the pro
 
 [1]: https://github.com/lyrgard/
 [2]: https://github.com/lyrgard/ffbeEquip
+
+[Unit Search]: https://raw.githubusercontent.com/akrotchko/ffbeEquip-flutter/master/assets/images/readme/unitSearch.png
+[Unit Selected]: https://raw.githubusercontent.com/akrotchko/ffbeEquip-flutter/master/assets/images/readme/unitSelected.png

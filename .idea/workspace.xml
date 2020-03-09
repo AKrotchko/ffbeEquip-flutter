@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b8d0a31-b0da-41e7-aa18-4e708d5aee48" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/services/units_service.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/services/units_service.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/searchbar.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/searchbar.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/unitdisplay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/unitdisplay.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/readme/unitSearch.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/readme/unitSelected.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +52,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images/readme" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="flutter.settings" />
@@ -59,6 +60,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/images/readme" />
       <recent name="$PROJECT_DIR$/assets/images" />
       <recent name="$PROJECT_DIR$/assets/data" />
       <recent name="C:\Users\00821613\Documents\AEM Jar\ffbeequip\lib\data" />
@@ -92,7 +94,7 @@
       <workItem from="1583762354128" duration="41000" />
       <workItem from="1583762406602" duration="31000" />
       <workItem from="1583762447915" duration="253000" />
-      <workItem from="1583762741490" duration="4243000" />
+      <workItem from="1583762741490" duration="4665000" />
     </task>
     <servers />
   </component>
