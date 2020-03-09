@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b8d0a31-b0da-41e7-aa18-4e708d5aee48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/data/data.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/data/unitsWithPassives.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.flutter-plugins" beforeDir="false" afterPath="$PROJECT_DIR$/.flutter-plugins" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffbeequip.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ffbeequip.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Debug.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Release.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner.xcworkspace/contents.xcworkspacedata" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/home/home.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/home/home.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ui/widgets/unitdisplay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/widgets/unitdisplay.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +60,12 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/data" />
+      <recent name="C:\Users\00821613\Documents\AEM Jar\ffbeequip\lib\data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\00821613\Documents\AEM Jar\ffbeequip\assets" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\00821613\Documents\AEM Jar\ffbeequip\lib\data" />
     </key>
   </component>
   <component name="RunManager">
@@ -104,7 +93,7 @@
       <workItem from="1583762354128" duration="41000" />
       <workItem from="1583762406602" duration="31000" />
       <workItem from="1583762447915" duration="253000" />
-      <workItem from="1583762741490" duration="624000" />
+      <workItem from="1583762741490" duration="1663000" />
     </task>
     <servers />
   </component>
@@ -120,34 +109,34 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="640" y="327" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1583327538917" />
-    <state width="939" height="328" key="GridCell.Tab.0.bottom" timestamp="1583763462074">
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom" timestamp="1583764262278">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1877" height="334" key="GridCell.Tab.0.bottom/-3520.129.1920.1080/0.0.1920.1200/-1600.-690.1600.1200@0.0.1920.1200" timestamp="1583155552829" />
     <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583365801172" />
     <state width="1877" height="411" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199684" />
-    <state width="939" height="328" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1583763462074" />
-    <state width="939" height="328" key="GridCell.Tab.0.center" timestamp="1583763462072">
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1583764262278" />
+    <state width="1878" height="328" key="GridCell.Tab.0.center" timestamp="1583764262278">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1877" height="334" key="GridCell.Tab.0.center/-3520.129.1920.1080/0.0.1920.1200/-1600.-690.1600.1200@0.0.1920.1200" timestamp="1583155552829" />
     <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583365801172" />
     <state width="1877" height="411" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199684" />
-    <state width="939" height="328" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1583763462072" />
-    <state width="939" height="328" key="GridCell.Tab.0.left" timestamp="1583763462072">
+    <state width="1878" height="328" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1583764262278" />
+    <state width="1878" height="328" key="GridCell.Tab.0.left" timestamp="1583764262277">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1877" height="334" key="GridCell.Tab.0.left/-3520.129.1920.1080/0.0.1920.1200/-1600.-690.1600.1200@0.0.1920.1200" timestamp="1583155552829" />
     <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583365801172" />
     <state width="1877" height="411" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199684" />
-    <state width="939" height="328" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1583763462072" />
-    <state width="939" height="328" key="GridCell.Tab.0.right" timestamp="1583763462073">
+    <state width="1878" height="328" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1583764262277" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right" timestamp="1583764262278">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1877" height="334" key="GridCell.Tab.0.right/-3520.129.1920.1080/0.0.1920.1200/-1600.-690.1600.1200@0.0.1920.1200" timestamp="1583155552829" />
     <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583365801172" />
     <state width="1877" height="411" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199684" />
-    <state width="939" height="328" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1583763462073" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1583764262278" />
     <state width="1877" height="411" key="GridCell.Tab.1.bottom" timestamp="1583348199684">
       <screen x="0" y="0" width="1920" height="1200" />
     </state>

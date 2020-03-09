@@ -3,14 +3,18 @@ import 'package:ffbeequip/ui/home/home.dart';
 import 'package:flutter/material.dart';
 
 class UnitDisplay extends StatefulWidget {
-  UnitDisplay({Key key}) : super(key: key);
+  UnitDisplay({Key key, this.notifyParent}) : super(key: key);
+
+  final Function notifyParent;
 
   @override
-  _UnitDisplayState createState() => _UnitDisplayState();
+  _UnitDisplayState createState() => _UnitDisplayState(notifyParent);
 }
 
 class _UnitDisplayState extends State<UnitDisplay> {
-  _UnitDisplayState();
+  _UnitDisplayState(this.notifyParent);
+
+  final Function notifyParent;
 
   @override
   void initState() {
@@ -28,6 +32,11 @@ class _UnitDisplayState extends State<UnitDisplay> {
           child: Column(
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
+          IconButton(icon: Icon(Icons.close), onPressed: (){
+            print('deselecting the unit');
+            selectedUnit = null;
+            notifyParent();
+          },),
           Text(
               '${selectedUnit.name} ${selectedUnit.minRarity} - ${selectedUnit.maxRarity}'),
           Text('HP: ${selectedUnit.stats.maxStats.hp}'),

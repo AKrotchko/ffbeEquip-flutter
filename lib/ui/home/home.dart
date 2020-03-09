@@ -1,6 +1,5 @@
 import 'package:ffbeequip/data/equipment_types.dart';
 import 'package:ffbeequip/data/units.dart';
-import 'package:ffbeequip/ui/home/item_search.dart';
 import 'package:ffbeequip/ui/widgets/equipment.dart';
 import 'package:ffbeequip/ui/widgets/searchbar.dart';
 import 'package:ffbeequip/ui/widgets/unitdisplay.dart';
@@ -43,21 +42,33 @@ class _UnitCalculatorState extends State<UnitCalculator> {
 
   @override
   Widget build(BuildContext context) {
-    return ListView(
-      children: <Widget>[
-        Container(
-          padding: EdgeInsets.all(13.0),
-          child: Center(
+    return (selectedUnit == null || selectedUnit.name == null)
+        ? Container(
+      padding: EdgeInsets.all(13.0),
+      child: Column(
+        children: <Widget>[
+          Center(
               child: SearchBar(
-            notifyParent: updateState,
-          )),
-        ),
-        UnitDisplay(),
-        weaponRow,
-        armorRow,
-        accessoriesRow,
-        materiaRow1,
-        materiaRow2
+                notifyParent: updateState,
+              )),
+          Padding(
+            padding: EdgeInsets.all(13.0),
+            child: Center(
+              child: Text('No Unit Selected'),
+            ),
+          )
+        ],
+      )
+    )
+        : ListView(
+      children: <Widget>[
+                UnitDisplay(notifyParent: updateState),
+                weaponRow,
+                armorRow,
+                accessoriesRow,
+                materiaRow1,
+                materiaRow2
+              ,
       ],
     );
   }
