@@ -94,6 +94,18 @@ class _EquipmentState extends State<Equipment> {
 
   @override
   Widget build(BuildContext context) {
+    var imageName;
+
+    if (slotName.contains('Hand')) {
+      imageName = 'hand';
+    } else if (slotName.contains('Accessory')) {
+      imageName = 'accessory';
+    } else if (slotName.contains('Materia')) {
+      imageName = 'materia';
+    } else {
+      imageName = slotName.toLowerCase();
+    }
+
     return Container(
       decoration: BoxDecoration(
           border: Border.all(
@@ -104,19 +116,28 @@ class _EquipmentState extends State<Equipment> {
       child: Center(
           child: Material(
         child: InkWell(
-          onTap: () {
-            Navigator.push(
-                context,
-                MaterialPageRoute(
-                    builder: (context) => ItemSearch(itemType: this.itemType, slotName: slotName, parentState: unitEquippedState)));
-          },
-          child: (selectedItem == null || selectedItem.name == null) ? ListTile(
-            leading: Icon(Icons.call_to_action),
-            title: Text(slotName),
-          ) : ListTile(leading: Image.asset(
-              'assets/images/items/${selectedItem.icon}'),
-              title: Text(selectedItem.name)),
-        ),
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) =>
+                            ItemSearch(itemType: this.itemType,
+                                slotName: slotName,
+                                parentState: unitEquippedState)));
+              },
+              child: (selectedItem == null || selectedItem.name == null)
+                  ? ListTile(
+                leading: Opacity(
+                  opacity: 0.5,
+                  child: Image.asset(
+                      'assets/images/icons/slots/$imageName.png'),
+                ),
+                title: Text(slotName),
+              )
+                  : ListTile(leading: Image.asset(
+                  'assets/images/items/${selectedItem.icon}'),
+                  title: Text(selectedItem.name)),
+            ),
           )),
     );
   }

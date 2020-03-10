@@ -2,6 +2,7 @@ import 'package:ffbeequip/data/current_unit.dart';
 import 'package:ffbeequip/data/equipment_types.dart';
 import 'package:ffbeequip/data/unit.dart';
 import 'package:ffbeequip/ui/widgets/equipment.dart';
+import 'package:ffbeequip/ui/widgets/esper.dart';
 import 'package:ffbeequip/ui/widgets/searchbar.dart';
 import 'package:ffbeequip/ui/widgets/unitdisplay.dart';
 import 'package:flutter/material.dart';
@@ -65,14 +66,15 @@ class _UnitCalculatorState extends State<UnitCalculator> {
     )
         : ListView(
       children: <Widget>[
-                UnitDisplay(notifyParent: updateState),
-                weaponRow,
-                armorRow,
-                accessoriesRow,
-                materiaRow1,
-                materiaRow2,
-      ],
-    );
+              UnitDisplay(notifyParent: updateState),
+              weaponRow,
+              armorRow,
+              accessoriesRow,
+              materiaRow1,
+              materiaRow2,
+              Esper(),
+            ],
+          );
   }
 
   // Forces the selected unit to appear in the unit display

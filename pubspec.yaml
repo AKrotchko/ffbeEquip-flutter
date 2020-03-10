@@ -25,4 +25,6 @@ flutter:
   - assets/images/items/
   - assets/images/icons/ailments/
   - assets/images/icons/elements/
+  - assets/images/icons/equipments/
+  - assets/images/icons/slots/
 
