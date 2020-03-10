@@ -20,10 +20,10 @@
 
 /* Begin PBXBuildFile section */
 		20AE120253CDDB6055154F7F3DB2D46A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		3922292579E0AF64B2CF35EC2C035690 /* KeyboardVisibilityPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EBC4DB32A46F6F8CF8865BA40CC5F49 /* KeyboardVisibilityPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3922292579E0AF64B2CF35EC2C035690 /* KeyboardVisibilityPlugin.h in Headers */ = {isa = PBXBuildFile; fileRef = BFD684840BE6E35CE1392ABD21EB0E5A /* KeyboardVisibilityPlugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F558D015BABA7CE4F03A22D8C9A274C /* flutter_keyboard_visibility-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A705A8CCB61736A4779407C8D4DA259D /* flutter_keyboard_visibility-dummy.m */; };
 		841DC27E5A51F1AAD6B29F19887726C5 /* Pods-Runner-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */; };
-		8C86927639A8589103C2B9205C63B6F2 /* KeyboardVisibilityPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = B7F1CF93192E67B03709A63454361E82 /* KeyboardVisibilityPlugin.m */; };
+		8C86927639A8589103C2B9205C63B6F2 /* KeyboardVisibilityPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 732452BC5E50E6D0CB852AC7071F9664 /* KeyboardVisibilityPlugin.m */; };
 		D3665418A06DE0A1CF8ACEB00D2552B5 /* flutter_keyboard_visibility-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 58BAACCCC4D75845AD94EDD98E7C3FA4 /* flutter_keyboard_visibility-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEC4F583F0FC9606680355EC10171615 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		E73A605A1569962305D6E83CB4729F71 /* Pods-Runner-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BF45FBE2BC9AD7B2D7E56D01B5EE46 /* Pods-Runner-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,10 +58,10 @@
 		1AE2234D995EFF835C47CFC4C27E96C9 /* flutter_keyboard_visibility.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = flutter_keyboard_visibility.podspec; path = "../../../../../../../../.pub-cache/hosted/pub.dartlang.org/flutter_keyboard_visibility-0.7.0/ios/flutter_keyboard_visibility.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		317C26B9A7CEDD34ADE8F37FAAB7AC20 /* Pods-Runner-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Runner-frameworks.sh"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		4EBC4DB32A46F6F8CF8865BA40CC5F49 /* KeyboardVisibilityPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeyboardVisibilityPlugin.h; path = "../../../../../../../../../.pub-cache/hosted/pub.dartlang.org/flutter_keyboard_visibility-0.7.0/ios/Classes/KeyboardVisibilityPlugin.h"; sourceTree = "<group>"; };
 		51825CD8F0558EFA53D9510F0E5BFA16 /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
 		58BAACCCC4D75845AD94EDD98E7C3FA4 /* flutter_keyboard_visibility-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_keyboard_visibility-umbrella.h"; sourceTree = "<group>"; };
 		669E8F25E1897672BDB80B7EB784DA24 /* Pods_Runner.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Runner.framework; path = "Pods-Runner.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		732452BC5E50E6D0CB852AC7071F9664 /* KeyboardVisibilityPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeyboardVisibilityPlugin.m; path = "../../../../../../../../../.pub-cache/hosted/pub.dartlang.org/flutter_keyboard_visibility-0.7.0/ios/Classes/KeyboardVisibilityPlugin.m"; sourceTree = "<group>"; };
 		75F18F85DB510140919F35DA226B7CA0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = "../../../../../../../../.pub-cache/hosted/pub.dartlang.org/flutter_keyboard_visibility-0.7.0/LICENSE"; sourceTree = "<group>"; };
 		7B3C932BD54DBB963102A89E0F9E3948 /* Pods-Runner-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Runner-dummy.m"; sourceTree = "<group>"; };
 		822A83F1C0B541D9F6B9AD9D1A86C334 /* flutter_keyboard_visibility.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = flutter_keyboard_visibility.modulemap; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		9F79F8269DC34AC56BB3D1D9652C0D86 /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		A705A8CCB61736A4779407C8D4DA259D /* flutter_keyboard_visibility-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_keyboard_visibility-dummy.m"; sourceTree = "<group>"; };
 		A8BD0ABEE976CD350EFD15625A94884F /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
-		B7F1CF93192E67B03709A63454361E82 /* KeyboardVisibilityPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KeyboardVisibilityPlugin.m; path = "../../../../../../../../../.pub-cache/hosted/pub.dartlang.org/flutter_keyboard_visibility-0.7.0/ios/Classes/KeyboardVisibilityPlugin.m"; sourceTree = "<group>"; };
+		BFD684840BE6E35CE1392ABD21EB0E5A /* KeyboardVisibilityPlugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KeyboardVisibilityPlugin.h; path = "../../../../../../../../../.pub-cache/hosted/pub.dartlang.org/flutter_keyboard_visibility-0.7.0/ios/Classes/KeyboardVisibilityPlugin.h"; sourceTree = "<group>"; };
 		C6EA98402A94995D022D330B64B5203D /* Pods-Runner-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Runner-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CDAECCF4B5E08124ED410F09FD5A5DF9 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		D2FA70CA298C392CB8332ADEEDD1CE85 /* Pods-Runner.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.release.xcconfig"; sourceTree = "<group>"; };
@@ -112,21 +112,21 @@
 			path = ..;
 			sourceTree = "<group>";
 		};
+		03BC5A85968DFE63BF44F4C2B4EF8126 /* GitHub */ = {
+			isa = PBXGroup;
+			children = (
+				AEF9A0F8A4E497EE5A9A0B8ACF862A86 /* ffbeequip_flutter */,
+			);
+			name = GitHub;
+			path = GitHub;
+			sourceTree = "<group>";
+		};
 		0515CCD61DF1D81C3E8BA81851C7321E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				A8BD0ABEE976CD350EFD15625A94884F /* Flutter.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1431FD10CD9EFAEF77CF3A02EEA4012F /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				7DC36AB1360A87AE88BCCD40468F4293 /* .symlinks */,
-			);
-			name = ios;
-			path = ios;
 			sourceTree = "<group>";
 		};
 		1480F2D5B2617735CD317AAB3D38D576 /* Products */ = {
@@ -147,22 +147,22 @@
 			path = "../Pods/Target Support Files/Flutter";
 			sourceTree = "<group>";
 		};
-		1B09A0F5F1A4E38FBD77F7B86A507AF8 /* GitHub */ = {
-			isa = PBXGroup;
-			children = (
-				9403C5DE8F2977266760984FCC873C88 /* ffbeEquip-flutter */,
-			);
-			name = GitHub;
-			path = GitHub;
-			sourceTree = "<group>";
-		};
 		2E25691D91FA23ABE4A86F135FB94580 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
-				1B09A0F5F1A4E38FBD77F7B86A507AF8 /* GitHub */,
+				03BC5A85968DFE63BF44F4C2B4EF8126 /* GitHub */,
 			);
 			name = Documents;
 			path = Documents;
+			sourceTree = "<group>";
+		};
+		2E36A5BAF96E69ED31C936743EF641DB /* .symlinks */ = {
+			isa = PBXGroup;
+			children = (
+				46D4D694DC349C63536C2453E73E6FB9 /* plugins */,
+			);
+			name = .symlinks;
+			path = .symlinks;
 			sourceTree = "<group>";
 		};
 		40F9391AF877DF88900004842CC8954E /* flutter_keyboard_visibility */ = {
@@ -174,6 +174,15 @@
 			);
 			name = flutter_keyboard_visibility;
 			path = ../.symlinks/plugins/flutter_keyboard_visibility/ios;
+			sourceTree = "<group>";
+		};
+		46D4D694DC349C63536C2453E73E6FB9 /* plugins */ = {
+			isa = PBXGroup;
+			children = (
+				765F6A8B2F360A398EA19D4F9446E99C /* flutter_keyboard_visibility */,
+			);
+			name = plugins;
+			path = plugins;
 			sourceTree = "<group>";
 		};
 		4A0CB71BE07AAC2E2C78ABB0682FFF7A /* Development Pods */ = {
@@ -202,6 +211,15 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
+		765F6A8B2F360A398EA19D4F9446E99C /* flutter_keyboard_visibility */ = {
+			isa = PBXGroup;
+			children = (
+				BBD8A24471C127DC0263B872DB3BA8FB /* ios */,
+			);
+			name = flutter_keyboard_visibility;
+			path = flutter_keyboard_visibility;
+			sourceTree = "<group>";
+		};
 		791C6E4B424AF06279F8918FA67B8ED6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -228,15 +246,6 @@
 			path = "Target Support Files/Pods-Runner";
 			sourceTree = "<group>";
 		};
-		7DC36AB1360A87AE88BCCD40468F4293 /* .symlinks */ = {
-			isa = PBXGroup;
-			children = (
-				C56BA636FA6D4528256E2B0720677986 /* plugins */,
-			);
-			name = .symlinks;
-			path = .symlinks;
-			sourceTree = "<group>";
-		};
 		8542EAA56C274E2E909DAFBB37DA996B /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
@@ -248,13 +257,22 @@
 			path = ../Flutter;
 			sourceTree = "<group>";
 		};
-		9403C5DE8F2977266760984FCC873C88 /* ffbeEquip-flutter */ = {
+		AEF9A0F8A4E497EE5A9A0B8ACF862A86 /* ffbeequip_flutter */ = {
 			isa = PBXGroup;
 			children = (
-				1431FD10CD9EFAEF77CF3A02EEA4012F /* ios */,
+				C25A2F38B39BD04EFDDE7E3BA978A460 /* ios */,
 			);
-			name = "ffbeEquip-flutter";
-			path = "ffbeEquip-flutter";
+			name = ffbeequip_flutter;
+			path = ffbeequip_flutter;
+			sourceTree = "<group>";
+		};
+		BBD8A24471C127DC0263B872DB3BA8FB /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				C1B9940BDCE052241B011C1366606C62 /* Classes */,
+			);
+			name = ios;
+			path = ios;
 			sourceTree = "<group>";
 		};
 		BD369780AB09C9A3356A23F6FBCBF343 /* .. */ = {
@@ -274,32 +292,23 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C2E190BCA6BEFDD2E9303589A764F454 /* flutter_keyboard_visibility */ = {
+		C1B9940BDCE052241B011C1366606C62 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D9EFDF3DE8715477902C082F7BCF6464 /* ios */,
-			);
-			name = flutter_keyboard_visibility;
-			path = flutter_keyboard_visibility;
-			sourceTree = "<group>";
-		};
-		C41B25A6EC44FA3F86A75BDEE66A829D /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				4EBC4DB32A46F6F8CF8865BA40CC5F49 /* KeyboardVisibilityPlugin.h */,
-				B7F1CF93192E67B03709A63454361E82 /* KeyboardVisibilityPlugin.m */,
+				BFD684840BE6E35CE1392ABD21EB0E5A /* KeyboardVisibilityPlugin.h */,
+				732452BC5E50E6D0CB852AC7071F9664 /* KeyboardVisibilityPlugin.m */,
 			);
 			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
-		C56BA636FA6D4528256E2B0720677986 /* plugins */ = {
+		C25A2F38B39BD04EFDDE7E3BA978A460 /* ios */ = {
 			isa = PBXGroup;
 			children = (
-				C2E190BCA6BEFDD2E9303589A764F454 /* flutter_keyboard_visibility */,
+				2E36A5BAF96E69ED31C936743EF641DB /* .symlinks */,
 			);
-			name = plugins;
-			path = plugins;
+			name = ios;
+			path = ios;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -328,15 +337,6 @@
 			);
 			name = ..;
 			path = ..;
-			sourceTree = "<group>";
-		};
-		D9EFDF3DE8715477902C082F7BCF6464 /* ios */ = {
-			isa = PBXGroup;
-			children = (
-				C41B25A6EC44FA3F86A75BDEE66A829D /* Classes */,
-			);
-			name = ios;
-			path = ios;
 			sourceTree = "<group>";
 		};
 		F07D9169203CA5418AD5491656F87B44 /* Support Files */ = {

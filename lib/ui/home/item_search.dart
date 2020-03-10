@@ -77,38 +77,47 @@ class _ItemSearchState extends State<ItemSearch> {
 
     if (validEquips.length == 0) {
       return Scaffold(
-        body: Container(
-          child: Center(
-            child: Text('${currentUnit.name} cannot equip any ${itemType}s'),
+        body: SafeArea(
+          child: Container(
+            child: Center(
+              child: Text('${currentUnit.name} cannot equip any ${itemType}s'),
+            ),
           ),
         ),
       );
     }
 
     return Scaffold(
-      body: ListView.builder(itemBuilder: (context, i) {
-        if (i.isOdd) {
-          return Divider(height: 1);
-        }
-        final index = i ~/ 2;
+        body: SafeArea(
+      child: ListView.builder(
+        itemBuilder: (context, i) {
+          if (i.isOdd) {
+            return Divider(height: 1);
+          }
+          final index = i ~/ 2;
 
-        return Material(
-          child: InkWell(
-            onTap: (){
-              equipCurrentUnit(index);
-              parentState();
-              Navigator.of(context).pop();
-            },
-            child: ListTile(
-              leading: Image.asset('assets/images/items/${validEquips[index].icon}'),
-              title: Text(validEquips[index].name),
+          return Material(
+            child: InkWell(
+              onTap: () {
+                equipCurrentUnit(index);
+                parentState();
+                Navigator.of(context).pop();
+              },
+              child: ListTile(
+                leading: Image.asset(
+                    'assets/images/items/${validEquips[index].icon}'),
+                title: Text(validEquips[index].name),
+                subtitle: Text(
+                  getValues(validEquips[index]),
 //          subtitle: Text(validEquips[i].id),
+                ),
+              ),
             ),
-          ),
-        );
-      },
+          );
+        },
         itemCount: (validEquips.length * 2),
       ),
+        )
     );
   }
 
@@ -193,29 +202,71 @@ class _ItemSearchState extends State<ItemSearch> {
       }
       case 'Accessory 2': {
         currentlySelectedUnit.accessory2 = validEquips[index];
-        print('${currentUnit.name} has ${currentlySelectedUnit.accessory2.name} equipped');
+        print('${currentUnit.name} has ${currentlySelectedUnit.accessory2
+            .name} equipped');
         break;
       }
-      case 'Materia 1': {
-        currentlySelectedUnit.materia1 = validEquips[index];
-        print('${currentUnit.name} has ${currentlySelectedUnit.materia1.name} equipped');
-        break;
-      }
-      case 'Materia 2': {
-        currentlySelectedUnit.materia2 = validEquips[index];
-        print('${currentUnit.name} has ${currentlySelectedUnit.materia2.name} equipped');
-        break;
-      }
-      case 'Materia 3': {
-        currentlySelectedUnit.materia3 = validEquips[index];
-        print('${currentUnit.name} has ${currentlySelectedUnit.materia3.name} equipped');
-        break;
-      }
-      case 'Materia 4': {
-        currentlySelectedUnit.materia4 = validEquips[index];
-        print('${currentUnit.name} has ${currentlySelectedUnit.materia4.name} equipped');
-        break;
-      }
+      case 'Materia 1':
+        {
+          currentlySelectedUnit.materia1 = validEquips[index];
+          print('${currentUnit.name} has ${currentlySelectedUnit.materia1
+              .name} equipped');
+          break;
+        }
+      case 'Materia 2':
+        {
+          currentlySelectedUnit.materia2 = validEquips[index];
+          print('${currentUnit.name} has ${currentlySelectedUnit.materia2
+              .name} equipped');
+          break;
+        }
+      case 'Materia 3':
+        {
+          currentlySelectedUnit.materia3 = validEquips[index];
+          print('${currentUnit.name} has ${currentlySelectedUnit.materia3
+              .name} equipped');
+          break;
+        }
+      case 'Materia 4':
+        {
+          currentlySelectedUnit.materia4 = validEquips[index];
+          print('${currentUnit.name} has ${currentlySelectedUnit.materia4
+              .name} equipped');
+          break;
+        }
     }
+  }
+
+  getValues (Item item) {
+    String importantValues = '';
+//    getValue(item, 'name');
+//    getValue(item, 'icon');
+    importantValues += getValue(item, 'hp', 'HP');
+    importantValues += getValue(item, 'hp%', 'HP', '%');
+    importantValues += getValue(item, 'mp', 'MP');
+    importantValues += getValue(item, 'mp%', 'MP', '%');
+    importantValues += getValue(item, 'atk', 'ATK');
+    importantValues += getValue(item, 'atk%', 'ATK', '%');
+    importantValues += getValue(item, 'def', 'DEF');
+    importantValues += getValue(item, 'def%', 'DEF', '%');
+    importantValues += getValue(item, 'mag', 'MAG');
+    importantValues += getValue(item, 'mag%', 'MAG', '%');
+    importantValues += getValue(item, 'spr', 'SPR');
+    importantValues += getValue(item, 'spr%', 'SPR', '%');
+
+
+    return importantValues;
+    return item.hp.toString();
+  }
+
+  getValue (Item item, valueName, otherName, [percentage]) {
+    var value = (item.toJson()[valueName] == null) ? '' : '$otherName +${item
+        .toJson()[valueName]}${percentage != null ? percentage : ''} ';
+
+    return value;
+  }
+
+  getEleResist (Item item, valueName) {
+
   }
 }

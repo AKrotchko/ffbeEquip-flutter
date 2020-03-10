@@ -1,7 +1,7 @@
 // This is a generated file; do not edit or check into version control.
 FLUTTER_ROOT=/Users/00821613/flutter
-FLUTTER_APPLICATION_PATH=/Users/00821613/Documents/GitHub/ffbeEquip-flutter
-FLUTTER_TARGET=/Users/00821613/Documents/GitHub/ffbeEquip-flutter/lib/main.dart
+FLUTTER_APPLICATION_PATH=/Users/00821613/Documents/GitHub/ffbeequip_flutter
+FLUTTER_TARGET=/Users/00821613/Documents/GitHub/ffbeequip_flutter/lib/main.dart
 FLUTTER_BUILD_DIR=build
 SYMROOT=${SOURCE_ROOT}/../build/ios
 FLUTTER_FRAMEWORK_DIR=/Users/00821613/flutter/bin/cache/artifacts/engine/ios
