@@ -42,19 +42,22 @@ List<Item> accessories = List();
 List<Item> materia = List();
 
 class ItemSearch extends StatefulWidget {
-  ItemSearch({Key key, @required this.itemType}) : super(key: key);
+  ItemSearch({Key key, @required this.itemType, @required this.slotName, @required this.parentState}) : super(key: key);
 
   final itemType;
-
+  final slotName;
+  final parentState;
 
   @override
-  _ItemSearchState createState() => _ItemSearchState(itemType);
+  _ItemSearchState createState() => _ItemSearchState(itemType, slotName, parentState);
 }
 
 class _ItemSearchState extends State<ItemSearch> {
-  _ItemSearchState (this.itemType); // Constructor
+  _ItemSearchState (this.itemType, this.slotName, this.parentState); // Constructor
 
   final itemType;
+  final slotName;
+  final parentState;
   List<dynamic> validEquips = List();
 
   @override
@@ -85,14 +88,23 @@ class _ItemSearchState extends State<ItemSearch> {
     return Scaffold(
       body: ListView.builder(itemBuilder: (context, i) {
         if (i.isOdd) {
-          return Divider();
+          return Divider(height: 1);
         }
         final index = i ~/ 2;
 
-        return ListTile(
-          leading: Image.asset('assets/images/items/${validEquips[index].icon}'),
-          title: Text(validEquips[index].name),
+        return Material(
+          child: InkWell(
+            onTap: (){
+              equipCurrentUnit(index);
+              parentState();
+              Navigator.of(context).pop();
+            },
+            child: ListTile(
+              leading: Image.asset('assets/images/items/${validEquips[index].icon}'),
+              title: Text(validEquips[index].name),
 //          subtitle: Text(validEquips[i].id),
+            ),
+          ),
         );
       },
         itemCount: (validEquips.length * 2),
@@ -149,6 +161,61 @@ class _ItemSearchState extends State<ItemSearch> {
           validEquips.addAll(materia);
           break;
         }
+    }
+  }
+
+  equipCurrentUnit(index) {
+    switch (slotName) {
+      case 'Right Hand': {
+        currentlySelectedUnit.rightHand = validEquips[index];
+        print('${currentUnit.name} has ${currentlySelectedUnit.rightHand.name} equipped');
+        break;
+      }
+      case 'Left Hand': {
+        currentlySelectedUnit.leftHand = validEquips[index];
+        print('${currentUnit.name} has ${currentlySelectedUnit.leftHand.name} equipped');
+        break;
+      }
+      case 'Head': {
+        currentlySelectedUnit.head = validEquips[index];
+        print('${currentUnit.name} has ${currentlySelectedUnit.head.name} equipped');
+        break;
+      }
+      case 'Body': {
+        currentlySelectedUnit.body = validEquips[index];
+        print('${currentUnit.name} has ${currentlySelectedUnit.body.name} equipped');
+        break;
+      }
+      case 'Accessory 1': {
+        currentlySelectedUnit.accessory1 = validEquips[index];
+        print('${currentUnit.name} has ${currentlySelectedUnit.accessory1.name} equipped');
+        break;
+      }
+      case 'Accessory 2': {
+        currentlySelectedUnit.accessory2 = validEquips[index];
+        print('${currentUnit.name} has ${currentlySelectedUnit.accessory2.name} equipped');
+        break;
+      }
+      case 'Materia 1': {
+        currentlySelectedUnit.materia1 = validEquips[index];
+        print('${currentUnit.name} has ${currentlySelectedUnit.materia1.name} equipped');
+        break;
+      }
+      case 'Materia 2': {
+        currentlySelectedUnit.materia2 = validEquips[index];
+        print('${currentUnit.name} has ${currentlySelectedUnit.materia2.name} equipped');
+        break;
+      }
+      case 'Materia 3': {
+        currentlySelectedUnit.materia3 = validEquips[index];
+        print('${currentUnit.name} has ${currentlySelectedUnit.materia3.name} equipped');
+        break;
+      }
+      case 'Materia 4': {
+        currentlySelectedUnit.materia4 = validEquips[index];
+        print('${currentUnit.name} has ${currentlySelectedUnit.materia4.name} equipped');
+        break;
+      }
     }
   }
 }

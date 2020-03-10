@@ -1,6 +1,6 @@
+import 'package:ffbeequip/data/current_unit.dart';
 import 'package:ffbeequip/data/equipment_types.dart';
 import 'package:ffbeequip/data/unit.dart';
-import 'package:ffbeequip/data/units.dart';
 import 'package:ffbeequip/ui/widgets/equipment.dart';
 import 'package:ffbeequip/ui/widgets/searchbar.dart';
 import 'package:ffbeequip/ui/widgets/unitdisplay.dart';
@@ -9,6 +9,8 @@ import 'package:flutter/services.dart';
 
 List<Unit> unitList = List();
 Unit currentUnit = Unit();
+
+CurrentUnit currentlySelectedUnit = CurrentUnit();
 
 class HomePage extends StatelessWidget {
   @override
@@ -83,7 +85,7 @@ class _UnitCalculatorState extends State<UnitCalculator> {
     children: <Widget>[
       Flexible(
         child:
-            Equipment(itemType: EquipmentTypes.Weapon, slotName: 'Right Hand'),
+            Equipment(itemType: EquipmentTypes.Weapon, slotName: 'Right Hand', selectedItem: currentlySelectedUnit.rightHand),
       ),
       Flexible(
         child:

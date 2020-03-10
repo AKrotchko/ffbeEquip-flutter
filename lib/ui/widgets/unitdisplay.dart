@@ -1,4 +1,3 @@
-import 'package:ffbeequip/data/units.dart';
 import 'package:ffbeequip/ui/home/home.dart';
 import 'package:flutter/material.dart';
 
