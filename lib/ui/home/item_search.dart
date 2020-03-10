@@ -107,10 +107,15 @@ class _ItemSearchState extends State<ItemSearch> {
                 leading: Image.asset(
                     'assets/images/items/${validEquips[index].icon}'),
                 title: Text(validEquips[index].name),
-                subtitle: Text(
-                  getValues(validEquips[index]),
-//          subtitle: Text(validEquips[i].id),
+                subtitle: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: <Widget>[
+                    Container(child: Text(getValues(validEquips[index]))),
+                    Container(child: getEleResist(validEquips[index]))
+                  ],
                 ),
+//                trailing: getEleResist(validEquips[index]),
+                //${getEleResist(validEquips[index])}
               ),
             ),
           );
@@ -266,7 +271,67 @@ class _ItemSearchState extends State<ItemSearch> {
     return value;
   }
 
-  getEleResist (Item item, valueName) {
+  getEleResist (Item item) {
+    List<Widget> elementalResists = [];
 
+    var itemJson = item.toJson();
+
+    if (itemJson['resist'] != null) {
+
+      var resistType = 'ailments';
+
+      for (var resist in itemJson['resist']) {
+        if (resist['name'] == 'fire' || resist['name'] == 'ice' ||
+            resist['name'] == 'lightning' || resist['name'] == 'water' ||
+            resist['name'] == 'wind' || resist['name'] == 'earth' ||
+            resist['name'] == 'light' || resist['name'] == 'dark') {
+          resistType = 'elements';
+        } else {
+          resistType = 'ailments';
+        }
+
+        Widget eleResistIcon = Stack(
+          children: <Widget>[
+            Image.asset('assets/images/icons/$resistType/${resist['name']}.png',
+                height: 35, width: 35),
+            Stack(
+              alignment: AlignmentDirectional.bottomEnd,
+              children: <Widget>[
+                Text(
+                  '${resist['percent']}',
+                  style: TextStyle(
+                    foreground: Paint()
+                      ..style = PaintingStyle.stroke
+                      ..strokeWidth = 3
+                      ..color = Colors.black,
+                  ),
+                ),
+                Text(
+                  '${resist['percent']}',
+                  style: TextStyle(
+                    color: Colors.white,
+                  ),
+                ),
+              ],
+            ),
+//            Text('${resist['percent']}', style: TextStyle(color: Colors.white),)
+          ],
+        );
+
+//        Widget eleResistIcon = Image.asset('assets/images/icons/elements/${resist['name']}.png');
+
+        elementalResists.add(eleResistIcon);
+      }
+    }
+
+
+    if (elementalResists.length == 0) {
+      return null;
+    } else {
+      return Row(
+          mainAxisSize: MainAxisSize.min,
+          children: elementalResists
+      );
+    }
   }
 }

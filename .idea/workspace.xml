@@ -2,20 +2,164 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b8d0a31-b0da-41e7-aa18-4e708d5aee48" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/app/src/main/kotlin/com/Krotchko/ffbeequip_flutter/MainActivity.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ios/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/chocobo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/colosseum.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/event.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/key.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/premium.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/recipe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/shop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/stmr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/story.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/tmr_1-2stars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/tmr_3-4stars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/tmr_5stars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/trial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/trophy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/access/unitExclusive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/berserk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/blind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/break_atk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/break_def.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/break_mag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/break_spr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/charm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/confuse.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/death.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/disease.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/paralysis.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/petrification.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/poison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/silence.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/sleep.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/ailments/stop.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/all.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/crystals/blueCrystal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/crystals/goldCrystal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/crystals/rainbowCrystal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/crystals/redCrystal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/crystals/sevenStarCrystal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/discord.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/dwarf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/elements/dark.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/elements/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/elements/fire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/elements/ice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/elements/light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/elements/lightning.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/elements/noElement.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/elements/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/elements/wind.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/emptyIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/accessory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/axe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/bow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/clothes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/dagger.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/fist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/greatSword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/gun.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/hammer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/harp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/hat.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/heavyArmor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/heavyShield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/helm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/hybrid.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/katana.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/lightArmor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/lightShield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/mace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/materia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/robe.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/rod.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/spear.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/staff.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/sword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/throwing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/equipments/whip.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/excludeExpedition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/gil.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/magical-aquatic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/magical-beast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/magical-bird.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/magical-bug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/magical-demon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/magical-dragon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/magical-human.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/magical-machine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/magical-plant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/magical-spirit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/magical-stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/magical-undead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/physical-aquatic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/physical-beast.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/physical-bird.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/physical-bug.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/physical-demon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/physical-dragon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/physical-human.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/physical-machine.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/physical-plant.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/physical-spirit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/physical-stone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/killers/physical-undead.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/languages.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/lb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/lbShard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/mitigationAbilities/globalMitigation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/mitigationAbilities/magicalMitigation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/mitigationAbilities/physicalMitigation.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/notStackable.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/pin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/pinned.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/shield.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/slots/accessory.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/slots/body.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/slots/esper.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/slots/hand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/slots/head.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/slots/materia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/sort/sort-a-z.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/sort/sort-atk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/sort/sort-def.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/sort/sort-evade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/sort/sort-hp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/sort/sort-inflict.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/sort/sort-mag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/sort/sort-mp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/sort/sort-resist.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/sort/sort-spr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/star_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/star_icon_filled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/stats/atk.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/stats/def.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/stats/hp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/stats/mag.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/stats/mp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/stats/spr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/stats/twoHanded.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/stmrTrustMoogle.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/tabs/equipments.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/tabs/history.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/tabs/materia.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/tabs/settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/tabs/units.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/tabs/units_stars.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/tabs/units_tmr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/tankAbilities/drawAttacks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/tankAbilities/magicalAoeCover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/tankAbilities/physicalAoeCover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/tankAbilities/stCover.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/images/icons/twoHanded.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradlew" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradlew" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradlew.bat" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradlew.bat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ffbeequip.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ffbeequip.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/AssetManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/AssetManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/App.framework/flutter_assets/kernel_blob.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/Generated.xcconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Pods/Pods.xcodeproj/project.pbxproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/ui/home/item_search.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ui/home/item_search.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +206,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="dart.analysis.tool.window.force.activate" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/images" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -72,14 +216,15 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\00821613\Documents\AEM Jar\ffbeequip\assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets/images" />
+      <recent name="$PROJECT_DIR$/assets/images/icons" />
       <recent name="$PROJECT_DIR$/assets/data" />
       <recent name="$PROJECT_DIR$/assets/images/readme" />
       <recent name="C:\Users\00821613\Documents\AEM Jar\ffbeequip\lib\data" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\00821613\Documents\AEM Jar\ffbeequip\assets" />
     </key>
   </component>
   <component name="RunManager">
@@ -110,7 +255,7 @@
       <workItem from="1583762741490" duration="22757000" />
       <workItem from="1583854450530" duration="17000" />
       <workItem from="1583854482299" duration="33000" />
-      <workItem from="1583854573660" duration="3534000" />
+      <workItem from="1583854573660" duration="6357000" />
     </task>
     <servers />
   </component>
@@ -126,34 +271,34 @@
       <screen x="0" y="0" width="1920" height="1200" />
     </state>
     <state x="640" y="327" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1920.1200@0.0.1920.1200" timestamp="1583327538917" />
-    <state width="1878" height="405" key="GridCell.Tab.0.bottom" timestamp="1583854410129">
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom" timestamp="1583861811961">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1877" height="334" key="GridCell.Tab.0.bottom/-3520.129.1920.1080/0.0.1920.1200/-1600.-690.1600.1200@0.0.1920.1200" timestamp="1583155552829" />
     <state width="1877" height="289" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1583365801172" />
     <state width="1877" height="411" key="GridCell.Tab.0.bottom/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199684" />
-    <state width="1878" height="405" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1583854410129" />
-    <state width="1878" height="405" key="GridCell.Tab.0.center" timestamp="1583854410128">
+    <state width="1878" height="328" key="GridCell.Tab.0.bottom/0.23.1920.1177@0.23.1920.1177" timestamp="1583861811961" />
+    <state width="1878" height="328" key="GridCell.Tab.0.center" timestamp="1583861811960">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1877" height="334" key="GridCell.Tab.0.center/-3520.129.1920.1080/0.0.1920.1200/-1600.-690.1600.1200@0.0.1920.1200" timestamp="1583155552829" />
     <state width="1877" height="289" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1583365801172" />
     <state width="1877" height="411" key="GridCell.Tab.0.center/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199684" />
-    <state width="1878" height="405" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1583854410128" />
-    <state width="1878" height="405" key="GridCell.Tab.0.left" timestamp="1583854410128">
+    <state width="1878" height="328" key="GridCell.Tab.0.center/0.23.1920.1177@0.23.1920.1177" timestamp="1583861811960" />
+    <state width="1878" height="328" key="GridCell.Tab.0.left" timestamp="1583861811960">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1877" height="334" key="GridCell.Tab.0.left/-3520.129.1920.1080/0.0.1920.1200/-1600.-690.1600.1200@0.0.1920.1200" timestamp="1583155552829" />
     <state width="1877" height="289" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1583365801172" />
     <state width="1877" height="411" key="GridCell.Tab.0.left/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199684" />
-    <state width="1878" height="405" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1583854410128" />
-    <state width="1878" height="405" key="GridCell.Tab.0.right" timestamp="1583854410129">
+    <state width="1878" height="328" key="GridCell.Tab.0.left/0.23.1920.1177@0.23.1920.1177" timestamp="1583861811960" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right" timestamp="1583861811961">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>
     <state width="1877" height="334" key="GridCell.Tab.0.right/-3520.129.1920.1080/0.0.1920.1200/-1600.-690.1600.1200@0.0.1920.1200" timestamp="1583155552829" />
     <state width="1877" height="289" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1583365801172" />
     <state width="1877" height="411" key="GridCell.Tab.0.right/0.0.1920.1200@0.0.1920.1200" timestamp="1583348199684" />
-    <state width="1878" height="405" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1583854410129" />
+    <state width="1878" height="328" key="GridCell.Tab.0.right/0.23.1920.1177@0.23.1920.1177" timestamp="1583861811961" />
     <state width="1878" height="405" key="GridCell.Tab.1.bottom" timestamp="1583854410128">
       <screen x="0" y="23" width="1920" height="1177" />
     </state>

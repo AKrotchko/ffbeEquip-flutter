@@ -23,5 +23,6 @@ flutter:
   - assets/data/
   - assets/images/units/
   - assets/images/items/
-
+  - assets/images/icons/ailments/
+  - assets/images/icons/elements/
 
