@@ -23,7 +23,7 @@ class _UnitDisplayState extends State<UnitDisplay> {
 
   @override
   Widget build(BuildContext context) {
-    if (selectedUnit.name == null) {
+    if (currentUnit.name == null) {
       return Container(
         child: Text('No unit selected'),
       );
@@ -33,20 +33,35 @@ class _UnitDisplayState extends State<UnitDisplay> {
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
           ListTile(
-            leading: Image.asset('assets/images/units/unit_icon_${selectedUnit.id}.png'),
-            title: Text(selectedUnit.name),
-            subtitle: Text('${selectedUnit.minRarity}☆ - ${selectedUnit.maxRarity}☆'),
+            leading: Image.asset('assets/images/units/unit_icon_${currentUnit.id}.png'),
+            title: Text(currentUnit.name),
+            subtitle: Text('${currentUnit.minRarity}☆ - ${currentUnit.maxRarity}☆'),
             trailing: IconButton(icon: Icon(Icons.close), onPressed: (){
-              selectedUnit = null;
+              currentUnit = null;
               notifyParent();
             },),
           ),
-          Text('HP: ${selectedUnit.stats.maxStats.hp}'),
-          Text('MP: ${selectedUnit.stats.maxStats.mp}'),
-          Text('ATK: ${selectedUnit.stats.maxStats.atk}'),
-          Text('DEF: ${selectedUnit.stats.maxStats.def}'),
-          Text('MAG: ${selectedUnit.stats.maxStats.mag}'),
-          Text('SPR: ${selectedUnit.stats.maxStats.spr}'),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Padding(padding: EdgeInsets.all(3.0), child: Text('HP: ${currentUnit.stats.maxStats.hp}')),
+              Padding(padding: EdgeInsets.all(3.0), child: Text('MP: ${currentUnit.stats.maxStats.mp}'))
+            ],
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Padding(padding: EdgeInsets.all(3.0), child: Text('ATK: ${currentUnit.stats.maxStats.atk}')),
+              Padding(padding: EdgeInsets.all(3.0), child: Text('DEF: ${currentUnit.stats.maxStats.def}'))
+            ],
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              Padding(padding: EdgeInsets.all(3.0), child: Text('MAG: ${currentUnit.stats.maxStats.mag}')),
+              Padding(padding: EdgeInsets.all(3.0), child: Text('SPR: ${currentUnit.stats.maxStats.spr}'))
+            ],
+          ),
         ],
       ));
     }

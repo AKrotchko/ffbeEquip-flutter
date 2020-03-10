@@ -34,10 +34,11 @@ Contributing directly is mostly closed at the moment, until the shell of the pro
 ### Credits:
 
 * [Lyrgard][1] - Inspired the project, and provided much of the data and logic
-* Jim - Owner/Maintainer of Jimbot. Provided condensed unit data
+* [Jim][3] - Owner/Maintainer of Jimbot. Provided condensed unit data
 
 [1]: https://github.com/lyrgard/
 [2]: https://github.com/lyrgard/ffbeEquip
+[3]: https://github.com/BlunterMonk/
 
 [Unit Search]: https://raw.githubusercontent.com/akrotchko/ffbeEquip-flutter/master/assets/images/readme/unitSearch.png
 [Unit Selected]: https://raw.githubusercontent.com/akrotchko/ffbeEquip-flutter/master/assets/images/readme/unitSelected.png

@@ -22,5 +22,6 @@ flutter:
   assets:
   - assets/data/
   - assets/images/units/
+  - assets/images/items/
 
 

@@ -56,7 +56,8 @@ class SearchBar extends StatelessWidget {
                 );
               },
               onSuggestionSelected: (suggestion) {
-                selectedUnit = getUnitFromSuggestion(suggestion.name);
+//                selectedUnit = getUnitsFromSuggestion(suggestion.name);
+                currentUnit = getUnitFromSuggestion(suggestion);
                 notifyParent();
               },
               noItemsFoundBuilder: (context) {

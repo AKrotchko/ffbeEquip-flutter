@@ -1,4 +1,5 @@
 import 'package:ffbeequip/data/equipment_types.dart';
+import 'package:ffbeequip/data/unit.dart';
 import 'package:ffbeequip/data/units.dart';
 import 'package:ffbeequip/ui/widgets/equipment.dart';
 import 'package:ffbeequip/ui/widgets/searchbar.dart';
@@ -6,8 +7,8 @@ import 'package:ffbeequip/ui/widgets/unitdisplay.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-List<Units> units = List();
-Units selectedUnit = Units();
+List<Unit> unitList = List();
+Unit currentUnit = Unit();
 
 class HomePage extends StatelessWidget {
   @override
@@ -35,14 +36,14 @@ class _UnitCalculatorState extends State<UnitCalculator> {
   }
 
   loadUnits() async {
-    final unitsJsonString =
-        await rootBundle.loadString('assets/data/units.json');
-    units = unitsFromJson(unitsJsonString).values.toList();
+    final fullUnitsJsonString = await rootBundle.loadString(
+        'assets/data/unitsWithSkill.json');
+    unitList = unitFromJson(fullUnitsJsonString).values.toList();
   }
 
   @override
   Widget build(BuildContext context) {
-    return (selectedUnit == null || selectedUnit.name == null)
+    return (currentUnit == null || currentUnit.name == null)
         ? Container(
       padding: EdgeInsets.all(13.0),
       child: Column(
@@ -67,8 +68,7 @@ class _UnitCalculatorState extends State<UnitCalculator> {
                 armorRow,
                 accessoriesRow,
                 materiaRow1,
-                materiaRow2
-              ,
+                materiaRow2,
       ],
     );
   }
